@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name" translatable="false">Sherry</string>
+    <string name="app_logo" translatable="false" />
+
+    <string name="menu_home">home</string>
+    <string name="menu_search">search</string>
+    <string name="menu_library">library</string>
+
+    <string name="album_image">Album cover</string>
+    <string name="playlist_image">Playlist cover</string>
+    <string name="artist_image">Artist cover</string>
+
+    <string name="add_icon">Add icon</string>
+    <string name="settings_icon">Settings button</string>
+    <string name="notifications_icon">Notifications button</string>
+    <string name="queue_icon">Queue button</string>
+    <string name="play_icon">Play button</string>
+    <string name="back_icon">Back button</string>
+
+    <string name="song_thumbnail">Song thumbnail</string>
+
+    <string name="library_title">Your library</string>
+    <string name="queue_title">Recommended queue</string>
+    <string name="playlists_title">Your playlists</string>
+    <string name="albums_title">Saved albums</string>
+    <string name="artists_title">Favorite artists</string>
+    <string name="featured_playlists_title">Featured playlists</string>
+    <string name="new_releases_title">New releases</string>
+    <string name="artists_albums_title">Evolution of</string>
+    <string name="artists_albums_title_with_name" translatable="false">%1$s %2$s</string>
+
+    <string name="search_hint">Search for artists, albums, playlists or songs…</string>
+    
+    <string name="playlist_name">Enter Playlist Name</string>
+    <string name="add_button">Confirm</string>
+    <string name="add_to_playlist_button">Add to this playlist</string>
+    <string name="add_track_icon">Add track to playlist</string>
+    <string name="morning">Sherry morning</string>
+    <string name="day">Sherry day</string>
+    <string name="evening">Sherry evening</string>
+
+</resources>

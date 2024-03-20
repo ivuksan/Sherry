@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light Theme Colors -->
+    <color name="theme_light_primary">#BF0030</color>
+    <color name="theme_light_onPrimary">#FFFFFF</color>
+    <color name="theme_light_primaryContainer">#FFDAD9</color>
+    <color name="theme_light_onPrimaryContainer">#40000A</color>
+    <color name="theme_light_secondary">#006E00</color>
+    <color name="theme_light_onSecondary">#FFFFFF</color>
+    <color name="theme_light_secondaryContainer">#88FC71</color>
+    <color name="theme_light_onSecondaryContainer">#002200</color>
+    <color name="theme_light_tertiary">#006874</color>
+    <color name="theme_light_onTertiary">#FFFFFF</color>
+    <color name="theme_light_tertiaryContainer">#97F0FF</color>
+    <color name="theme_light_onTertiaryContainer">#001F24</color>
+    <color name="theme_light_error">#BA1A1A</color>
+    <color name="theme_light_errorContainer">#FFDAD6</color>
+    <color name="theme_light_onError">#FFFFFF</color>
+    <color name="theme_light_onErrorContainer">#410002</color>
+    <color name="theme_light_background">#F8FDFF</color>
+    <color name="theme_light_onBackground">#001F25</color>
+    <color name="theme_light_surface">#F8FDFF</color>
+    <color name="theme_light_onSurface">#001F25</color>
+    <color name="theme_light_surfaceVariant">#F4DDDD</color>
+    <color name="theme_light_onSurfaceVariant">#524343</color>
+    <color name="theme_light_outline">#857373</color>
+    <color name="theme_light_inverseOnSurface">#D6F6FF</color>
+    <color name="theme_light_inverseSurface">#00363F</color>
+    <color name="theme_light_inversePrimary">#FFB3B4</color>
+    <color name="theme_light_shadow">#000000</color>
+    <color name="theme_light_surfaceTint">#BF0030</color>
+    <color name="theme_light_outlineVariant">#D7C1C1</color>
+    <color name="theme_light_scrim">#000000</color>
+
+    <!-- Dark Theme Colors -->
+    <color name="theme_dark_primary">#FFB3B4</color>
+    <color name="theme_dark_onPrimary">#680016</color>
+    <color name="theme_dark_primaryContainer">#920023</color>
+    <color name="theme_dark_onPrimaryContainer">#FFDAD9</color>
+    <color name="theme_dark_secondary">#6CDF58</color>
+    <color name="theme_dark_onSecondary">#003A00</color>
+    <color name="theme_dark_secondaryContainer">#005300</color>
+    <color name="theme_dark_onSecondaryContainer">#88FC71</color>
+    <color name="theme_dark_tertiary">#4FD8EB</color>
+    <color name="theme_dark_onTertiary">#00363D</color>
+    <color name="theme_dark_tertiaryContainer">#004F58</color>
+    <color name="theme_dark_onTertiaryContainer">#97F0FF</color>
+    <color name="theme_dark_error">#FFB4AB</color>
+    <color name="theme_dark_errorContainer">#93000A</color>
+    <color name="theme_dark_onError">#690005</color>
+    <color name="theme_dark_onErrorContainer">#FFDAD6</color>
+    <color name="theme_dark_background">#4B4B4B</color>
+    <color name="theme_dark_onBackground">#A6EEFF</color>
+    <color name="theme_dark_surface">#001F25</color>
+    <color name="theme_dark_onSurface">#A6EEFF</color>
+    <color name="theme_dark_surfaceVariant">#524343</color>
+    <color name="theme_dark_onSurfaceVariant">#D7C1C1</color>
+    <color name="theme_dark_outline">#A08C8C</color>
+    <color name="theme_dark_inverseOnSurface">#001F25</color>
+    <color name="theme_dark_inverseSurface">#A6EEFF</color>
+    <color name="theme_dark_inversePrimary">#BF0030</color>
+    <color name="theme_dark_shadow">#000000</color>
+    <color name="theme_dark_surfaceTint">#FFB3B4</color>
+    <color name="theme_dark_outlineVariant">#524343</color>
+    <color name="theme_dark_scrim">#000000</color>
+</resources>

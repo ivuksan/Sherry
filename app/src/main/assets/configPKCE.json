@@ -1,0 +1,21 @@
+{
+  "client_id": "1982f70bf3d3480c9dc3365c1d3a6f41",
+  "redirect_uri": "sherry://callback",
+  "authorization_uri": "https://accounts.spotify.com/authorize",
+  "token_uri": "https://accounts.spotify.com/api/token"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

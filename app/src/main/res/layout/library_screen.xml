@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:theme="@style/Theme.Sherry">
+
+            <!-- App Bar -->
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="30dp"
+                android:paddingBottom="30dp"
+                android:layout_alignParentTop="true">
+                <TextView
+                    android:id="@+id/userMessage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:textColor="?attr/colorPrimary"
+                    android:textSize="27sp"
+                    android:fontFamily="@font/gotham_bold" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp">
+
+                    <ImageView
+                        android:id="@+id/addIcon"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_add"
+                        android:layout_marginEnd="15dp"
+                        app:tint="?attr/colorPrimary"
+                        android:contentDescription="@string/" />
+
+                    <ImageView
+                        android:id="@+id/settingsIcon"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_settings"
+                        android:layout_marginEnd="15dp"
+                        app:tint="?attr/colorPrimary"
+                        android:contentDescription="@string/settings_icon" />
+
+                    <ImageView
+                        android:id="@+id/notificationsIcon"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_notifications"
+                        android:layout_marginEnd="15dp"
+                        app:tint="?attr/colorPrimary"
+                        android:contentDescription="@string/notifications_icon" />
+                </LinearLayout>
+            </androidx.appcompat.widget.Toolbar>
+
+            <!-- Main Content Area -->
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/toolbar"
+                android:layout_above="@+id/bottom_navigation">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/playlistsTitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="15dp"
+                        android:paddingEnd="15dp"
+                        android:fontFamily="@font/gotham_medium_one"
+                        android:textSize="22sp" />
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/playlistsRecyclerView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+                    <TextView
+                        android:id="@+id/albumsTitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="15dp"
+                        android:paddingEnd="15dp"
+                        android:fontFamily="@font/gotham_medium_one"
+                        android:textSize="22sp"/>
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/albumsRecyclerView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+                    <TextView
+                        android:id="@+id/artistsTitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="15dp"
+                        android:fontFamily="@font/gotham_medium_one"
+                        android:paddingEnd="15dp"
+                        android:textSize="22sp"/>
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/artistsRecyclerView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+
+            <!-- Bottom Navigation View -->
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/bottom_navigation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                app:menu="@menu/nav_menu" />
+        </RelativeLayout>
+</layout>

@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Sherry" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/theme_light_primary</item>
+        <item name="colorPrimaryVariant">@color/theme_light_primaryContainer</item>
+        <item name="colorOnPrimary">@color/theme_light_onPrimary</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/theme_light_secondary</item>
+        <item name="colorSecondaryVariant">@color/theme_light_secondaryContainer</item>
+        <item name="colorOnSecondary">@color/theme_light_onSecondary</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/theme_light_onPrimaryContainer</item>
+        <!-- Customize your theme here. -->
+        <item name="colorOnBackground">@color/theme_light_background</item>
+    </style>
+</resources>

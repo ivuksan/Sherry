@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sherry</string>
+    <string name="menu_home">početna</string>
+    <string name="menu_search">tražilica</string>
+    <string name="menu_library">moja zbirka</string>
+    <string name="album_image">Slika albuma</string>
+    <string name="playlist_image">Slika popisa za reprodukciju</string>
+    <string name="artist_image">Slika izvođača</string>
+    <string name="settings_icon">Ikona za postavke</string>
+    <string name="notifications_icon">Ikona za obavijesti</string>
+    <string name="queue_icon">Ikona za red čekanja</string>
+    <string name="play_icon">Ikona za reprodukciju</string>
+    <string name="back_icon">Ikona za povratak</string>
+    <string name="song_thumbnail">Sličica pjesme</string>
+    <string name="library_title">Moja zbirka</string>
+    <string name="queue_title">Predložene pjesme</string>
+    <string name="playlists_title">Moji popisi za reprodukciju</string>
+    <string name="albums_title">Spremljeni albumi</string>
+    <string name="artists_title">Omiljeni izvođači</string>
+    <string name="featured_playlists_title">Istaknuti popisi</string>
+    <string name="new_releases_title">Nova izdanja</string>
+    <string name="artists_albums_title">Diskografija</string>
+    <string name="search_hint">Pretraži izvođače, albume, popise ili pjesme…</string>
+    <string name="playlist_name">Unesi ime popisa za reprodukciju</string>
+    <string name="add_button">Potvrdi</string>
+    <string name="add_to_playlist_button">Dodaj pjesmu</string>
+    <string name="add_track_icon">Dodaj pjesmu na popis za reprodukciju</string>
+    <string name="add_icon">Dodaj popis za reprodukciju</string>
+    <string name="morning">Sherry jutro</string>
+    <string name="day">Sherry dan</string>
+    <string name="evening">Sherry večer</string>
+</resources>
